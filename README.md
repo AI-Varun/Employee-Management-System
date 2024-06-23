@@ -19,8 +19,8 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/AI-Varun/Employee-Management-System.git
+cd Employee-Management-System
 ```
-cd employee-management-system
 Install dependencies:
 
 Client Side (React):
