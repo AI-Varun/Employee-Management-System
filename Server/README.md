@@ -20,20 +20,20 @@ Clone the repository:
 ```bash
 git clone https://github.com/AI-Varun/Employee-Management-System.git
 ```
-cd employee-management-system
+cd Employee-Management-System
 Install dependencies:
 
 Client Side (React):
 
 ```bash
-cd client
+cd Client
 npm install
 ```
 
 Server Side (Node.js with Express):
 
 ```bash
-cd server
+cd Server
 npm install
 ```
 ## **Usage**
@@ -41,7 +41,7 @@ npm install
 To start the client-side development server:
 
 ```bash
-cd client
+cd Client
 npm run dev
 ```
 This command will start the React development server and open the application in your default web browser.
@@ -50,7 +50,7 @@ Start Server Side (Node.js with Express)
 To start the server-side Node.js application:
 
 ```bash
-cd server
+cd Server
 npm start
 ```
 This command will start the server on port 1220.
