@@ -1,0 +1,123 @@
+/* Overall header styles */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: lightblue; /* Background color for the header */
+}
+
+/* Logo row */
+.header-logo-row {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start; /* Align logo to the left */
+  align-items: flex-start;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Navigation row */
+/* .header-nav-row {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start; 
+  align-items: flex-start;
+} */
+
+.header-nav-row {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; /* Align items to opposite ends */
+  align-items: center; /* Align items vertically */
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 20px; /* Adjust the gap between navigation items */
+}
+
+.header-user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust the gap between user info and logout */
+}
+
+
+.header-nav {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header-nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* .header-nav-item {
+  margin: 0 20px 0 20px;
+} */
+
+.header-nav-link {
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+  margin-right: 150px;
+  font-weight: bold;
+}
+
+.header-user-info {
+  display: flex;
+  align-items: center;
+}
+
+.header-user-name {
+  color: rgb(149, 0, 255);
+  margin-right: 141px;
+  font-weight: bold;
+}
+
+.header-logout-link {
+  text-decoration: none;
+  color: red;
+
+}
+
+/* Page title row */
+.header-page-title-row {
+  /* text-align: center; */
+  padding: 0px;
+  width: 101vw;
+  height: 30px;
+  margin-left: -30px;
+  background-color: yellow; /* Yellow background for the page title */
+}
+
+.header-page-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin-left: 25px;
+}
+
+.login-button {
+  color: #303150;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border:none;
+  border-radius: 12px;
+  background-color: #f8fafc;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-weight: bold;
+
+}
